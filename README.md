@@ -47,14 +47,6 @@ All scripts run in minutes on CPU with the synthetic dataset.
 - `cli.py` — unified command-line interface
 - `notebooks/demo.ipynb` — walkthrough (optional placeholder)
 
-## Resume-Ready Talking Points
-
-- Designed an **edge-first multimodal pipeline** (audio, IMU, video) for road-defect detection.
-- Implemented **self-supervised contrastive learning** to leverage unlabeled sensor windows and reduce labeled data by ~60% (synthetic ablation).
-- Built **transformer-based sensor fusion** with temporal alignment and cross-modal attention.
-- Shipped an **active learning loop** that improved F1 by ~10–15% per 200 new labels (synthetic).
-- Added a **causal prioritization** module estimating impact on comfort/safety to **rank fixes**, not just detect defects.
-- Simulated **federated averaging** for privacy-preserving training across devices.
 
 ## Datasets (Real-World Options to Extend)
 
