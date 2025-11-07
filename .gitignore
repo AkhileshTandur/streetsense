@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Artifacts
+out/
+data/
+real/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
